@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 
+Agregando estilos:
+1. Posicionamiento --> static, absolute, relative, fixed
+2. Modelo de caja (Box model) --> margin, border, padding, content
+3. Tipografía --> tipos, tamaños de fuente, etc
+4 .Estilos visuales --> box-shadow, border-radius, gradient, etc
+5. Otros --> reglas CSS y más
+ */
+
+:root {
+	/* Colors */
+	--bitcoin-orange: #f7931a;
+	--soft-orange: #ffe9d5;
+	--secondary-blue: #1a9af7;
+	--soft-blue: #e7f5ff;
+	--warm-black: #201e1c;
+	--black: #282623;
+	--grey: #bababa;
+	--off-white: #faf8f7;
+	--just-white: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	/* Fonts */
+	font-size: 62.5%;
+	font-family: "DM Sans", sans-serif;
 }
