@@ -1,8 +1,11 @@
+import React from "react";
+import styles from "./ThirdSection.module.css";
+
 const ThirdSection = () => {
 	return (
-		<>
-			<h4>ThirdSection</h4>
-		</>
+		<section>
+			<h4>Holi</h4>
+		</section>
 	);
 };
 
