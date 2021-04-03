@@ -3,8 +3,8 @@ import styles from "./ThirdSection.module.css";
 
 const ThirdSection = () => {
 	return (
-		<section>
-			<h4>Holi</h4>
+		<section className={styles.thirdSection}>
+			<h2>Conócelo Hoy</h2>
 		</section>
 	);
 };

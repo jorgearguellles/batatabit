@@ -1,0 +1,19 @@
+.thirdSection {
+	width: 100%;
+	min-width: 32rem;
+	height: 50vh;
+	background-image: url("../../img/bitcoinBaby.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.thirdSection h2 {
+	padding-top: 6rem;
+	color: var(--just-white);
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.4rem;
+	line-height: 2.6rem;
+}

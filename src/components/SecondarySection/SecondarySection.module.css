@@ -41,14 +41,11 @@
 	color: #808080;
 }
 
-.containerCards {
-}
-
 .cardDetails {
 	width: 90%;
 	min-width: 28.8rem;
 	max-width: 40rem;
-	height: 15.2rem;
+	min-height: 15.2rem;
 	margin: 1.5rem auto;
 	padding: 1.5rem;
 	background-color: #282623;
