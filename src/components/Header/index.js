@@ -14,7 +14,7 @@ const Header = () => {
 					Batatabit te ayuda a navegar entre los diferentes precios y
 					tendencias.
 				</p>
-				<a href="/" className={styles.a}>
+				<a href="#plans" className={styles.a}>
 					Conoce Nuestros Planes
 					<span className={styles.span}></span>
 				</a>
