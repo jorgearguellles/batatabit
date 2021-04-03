@@ -20,26 +20,60 @@ const FirstSection = () => {
 							<tr className={styles.tableRow}>
 								<td className={styles.tableDataLeftTop}>Bitcoin</td>
 								<td className={styles.tableDataRightTop}>
-									$1.96 <span className={styles.imgTrending}></span>
+									$1.96 <span className={styles.trendingDown}></span>
 								</td>
 							</tr>
 							<tr className={styles.tableRow}>
 								<td className={styles.tableDataLeft}>Etherium</td>
-								<td className={styles.tableDataRight}>$0.07</td>
+								<td className={styles.tableDataRight}>
+									$0.07 <span className={styles.trendingUp}></span>
+								</td>
 							</tr>
 							<tr className={styles.tableRow}>
 								<td className={styles.tableDataLeft}>Ripple</td>
-								<td className={styles.tableDataRight}>$2.15</td>
+								<td className={styles.tableDataRight}>
+									$2.15 <span className={styles.trendingDown}></span>
+								</td>
 							</tr>
 							<tr className={styles.tableRow}>
 								<td className={styles.tableDataLeftBottom}>Stellar</td>
-								<td className={styles.tableDataRightBottom}>$4.96</td>
+								<td className={styles.tableDataRightBottom}>
+									$4.96 <span className={styles.trendingDown}></span>
+								</td>
 							</tr>
 						</table>
 					</div>
 					<div className={styles.currencyDate}>
 						<p>
 							<b> Actulizado:</b> 19 Julio 23:45{" "}
+						</p>
+					</div>
+				</div>
+				<div className={styles.currencyContainer}>
+					<h3 className={styles.h3Comitions}>Comiciones</h3>
+					<div className={styles.table}>
+						<table>
+							<tr className={styles.tableRow}>
+								<td className={styles.tableDataLeftTop}>Bitrade</td>
+								<td className={styles.tableDataRightTop}>$12.96</td>
+							</tr>
+							<tr className={styles.tableRow}>
+								<td className={styles.tableDataLeft}>Bitpreco</td>
+								<td className={styles.tableDataRight}>$13.07</td>
+							</tr>
+							<tr className={styles.tableRow}>
+								<td className={styles.tableDataLeft}>Novadax</td>
+								<td className={styles.tableDataRight}>$13.15</td>
+							</tr>
+							<tr className={styles.tableRow}>
+								<td className={styles.tableDataLeftBottom}>Coinnext</td>
+								<td className={styles.tableDataRightBottom}>$14.96</td>
+							</tr>
+						</table>
+					</div>
+					<div className={styles.comitionsDate}>
+						<p>
+							<b> Actulizado:</b> 19 Julio 23:48
 						</p>
 					</div>
 				</div>

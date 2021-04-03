@@ -43,8 +43,129 @@
 .tableContainer {
 }
 
-.imgTrending {
+.currencyContainer {
+	width: 70%;
+	min-width: 23.5rem;
+	max-width: 50rem;
+	height: 36rem;
+	margin: 0 auto;
+	font-family: "Inter", sans-serif;
+}
+
+.currencyContainer .h3 {
+	margin-bottom: 1.5rem;
+	font-size: 1.8rem;
+	font-weight: bold;
+	line-height: 2.3rem;
+	color: var(--bitcoin-orange);
+}
+
+.table {
+	width: 90%;
+	min-width: 2.3rem;
+	max-width: 30rem;
+	height: 25rem;
+	margin: 0 auto;
+}
+
+.table table {
+	width: 100%;
+	height: 100%;
+}
+
+.table td {
+	width: 50%;
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.9rem;
+	color: var(--grey);
+	background-color: var(--just-white);
+}
+
+.table .tableDataLeftTop {
+	border-radius: 1.5rem 0 0 0;
+}
+
+.table .tableDataRightTop {
+	border-radius: 0 1.5rem 0 0;
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 1.7rem;
+	color: #757575;
+}
+
+.table .tableDataLeftBottom {
+	border-radius: 0 0 0 1.5rem;
+}
+
+.table .tableDataRightBottom {
+	border-radius: 0 0 1.5rem 0;
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 1.7rem;
+	color: #757575;
+}
+
+.table .tableDataRight {
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 1.7rem;
+	color: #757575;
+}
+
+.trendingDown {
+	display: inline-block;
 	width: 1.2rem;
 	height: 1.2rem;
+	margin-left: 1rem;
 	background-image: url("../../icons/trendingDown.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.trendingUp {
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-left: 1rem;
+	background-image: url("../../icons/trendingUp.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.currencyDate {
+	width: 19rem;
+	height: 3rem;
+	margin: 0 auto;
+	margin-top: 1.5rem;
+	padding: 0.8rem;
+	background-color: var(--soft-orange);
+	border-radius: 0.8rem;
+}
+
+.currencyDate p {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	color: var(--warm-black);
+}
+
+.currencyContainer .h3Comitions {
+	margin-bottom: 1.5rem;
+	font-size: 1.8rem;
+	font-weight: bold;
+	line-height: 2.3rem;
+	color: var(--secondary-blue);
+}
+
+.comitionsDate {
+	background-color: var(--soft-blue);
+	width: 19rem;
+	height: 3rem;
+	margin: 0 auto;
+	margin-top: 1.5rem;
+	padding: 0.8rem;
+	border-radius: 0.8rem;
+	font-size: 1.2rem;
 }
