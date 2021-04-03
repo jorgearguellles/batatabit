@@ -1,8 +1,11 @@
+import React from "react";
+import styles from "./LastSection.module.css";
+
 const LastSection = () => {
 	return (
-		<>
-			<h5>LastSection</h5>
-		</>
+		<section className={styles.lastSection}>
+			<h5>Holi care oli</h5>
+		</section>
 	);
 };
 
