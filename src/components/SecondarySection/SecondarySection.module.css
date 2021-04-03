@@ -1,0 +1,112 @@
+.SecondarySection {
+	position: relative;
+	width: 100%;
+	min-width: 32rem;
+	height: auto;
+	padding: 2rem 1rem;
+	background-color: var(--warm-black);
+}
+
+.imgPatata {
+	position: absolute;
+	width: 4rem;
+	height: 2.4rem;
+	top: -1.2rem;
+	left: calc(50% - 2rem);
+	background-image: url("../../icons/batata.svg");
+}
+
+.containerText {
+	width: 90%;
+	min-width: 28.8rem;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.SecondarySectionTitle {
+	margin-bottom: 2rem;
+	font-weight: bold;
+	font-size: 2.4rem;
+	line-height: 2.6rem;
+	color: var(--just-white);
+}
+
+.SecondarySectionText {
+	margin-bottom: 2rem;
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #808080;
+}
+
+.containerCards {
+}
+
+.cardDetails {
+	width: 90%;
+	min-width: 28.8rem;
+	max-width: 40rem;
+	height: 15.2rem;
+	margin: 1.5rem auto;
+	padding: 1.5rem;
+	background-color: #282623;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+}
+
+.imgClock {
+	display: inline-block;
+	width: 2.4rem;
+	height: 2.4rem;
+	background-image: url("../../icons/clock.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cardTitle {
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	margin-bottom: 1.5rem;
+	color: var(--just-white);
+}
+
+.cardBodyText {
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #808080;
+}
+
+.imgEyes {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background-image: url("../../icons/eye.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imgMoney {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background-image: url("../../icons/dollarSign.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imgCheck {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background-image: url("../../icons/checkCircle.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
