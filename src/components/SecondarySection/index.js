@@ -1,7 +1,9 @@
+import React from "react";
+
 const SecondarySection = () => {
 	return (
 		<>
-			<h3>SecondarySection</h3>
+			<h3>Holi!</h3>
 		</>
 	);
 };
