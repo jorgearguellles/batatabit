@@ -41,14 +41,19 @@
 }
 
 .tableContainer {
+	display: flex;
+	overflow-x: scroll;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x proximity;
 }
 
 .currencyContainer {
+	position: relative;
+	scroll-snap-align: center;
 	width: 70%;
 	min-width: 23.5rem;
 	max-width: 50rem;
 	height: 36rem;
-	margin: 0 auto;
 	font-family: "Inter", sans-serif;
 }
 
