@@ -9,19 +9,49 @@ const LastSection = () => {
 				<p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
 			</div>
 			<section id="plans" className={styles.carouselContainer}>
-				<article className={styles.carouselCard}>
-					<p className={styles.recomendationCard}>Recomnedado</p>
-					<div>
-						<h3 className={styles.titleCard}>Pago Anual</h3>
-						<p className={styles.costCard}>
-							<span className={styles.simbolMoneyCard}>$</span> 99
+				<article className={styles.Card}>
+					<div className={styles.planInfoCard}>
+						<h3 className={styles.planTitleCard}>Pago Anual</h3>
+						<p className={styles.planCostCard}>
+							<span className={styles.simbolMoneyCard}>$</span> 299
 						</p>
-						<p className={styles.textCard}>
+						<p className={styles.planTextCard}>
 							*Ahorras $129 comparado al plan mensual.
 						</p>
 						<button className={styles.buttomCard}>
 							Escoger este
-							<span className={styles.buttomIconCard}>incono </span>
+							<span className={styles.buttomIconCard}></span>
+						</button>
+					</div>
+				</article>
+				<article className={styles.Card}>
+					<p className={styles.recomendationCard}>Recomendado</p>
+					<div className={styles.planInfoCard}>
+						<h3 className={styles.planTitleCard}>Pago Anual</h3>
+						<p className={styles.planCostCard}>
+							<span className={styles.simbolMoneyCard}>$</span> 99
+						</p>
+						<p className={styles.planTextCard}>
+							*Ahorras $129 comparado al plan mensual.
+						</p>
+						<button className={styles.buttomCard}>
+							Escoger este
+							<span className={styles.buttomIconCard}></span>
+						</button>
+					</div>
+				</article>
+				<article className={styles.Card}>
+					<div className={styles.planInfoCard}>
+						<h3 className={styles.planTitleCard}>Pago Anual</h3>
+						<p className={styles.planCostCard}>
+							<span className={styles.simbolMoneyCard}>$</span> 199
+						</p>
+						<p className={styles.planTextCard}>
+							*Ahorras $129 comparado al plan mensual.
+						</p>
+						<button className={styles.buttomCard}>
+							Escoger este
+							<span className={styles.buttomIconCard}></span>
 						</button>
 					</div>
 				</article>

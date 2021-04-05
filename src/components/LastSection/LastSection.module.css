@@ -1,2 +1,122 @@
 .lastSection {
+	width: 100%;
+	min-width: 32rem;
+	padding-bottom: 7rem;
+	text-align: center;
+}
+
+.textContainer {
+	width: 90%;
+	min-width: 28.8rem;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 5rem;
+}
+
+.textContainer h2 {
+	padding-top: 5rem;
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 2.6rem;
+	color: var(--black);
+}
+
+.textContainer p {
+	padding-top: 3rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	color: #757575;
+}
+
+.carouselContainer {
+	display: flex;
+	height: 31.6rem;
+	overflow-x: scroll;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x proximity;
+}
+
+.Card {
+	position: relative;
+	scroll-snap-align: center;
+	width: 70%;
+	min-width: 23rem;
+	max-width: 30rem;
+	height: 25rem;
+	margin: 5rem 1rem 0;
+	padding: 0 1.5rem;
+	background-color: var(--just-white);
+	border-radius: 0.8rem;
+	box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+}
+
+.recomendationCard {
+	position: absolute;
+	top: -1.6rem;
+	left: calc(50% - 6rem);
+	width: 12rem;
+	height: 3.1rem;
+	background-color: var(--bitcoin-orange);
+	border-radius: 0.8rem;
+	color: var(--just-white);
+	padding: 0.8rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.planTitleCard {
+	padding-top: 3rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	color: var(--black);
+}
+
+.planCostCard {
+	padding: 0.5rem 0;
+	font-size: 5.2rem;
+	font-weight: bold;
+	color: var(--black);
+	position: relative;
+}
+
+.simbolMoneyCard {
+	position: absolute;
+	top: 1rem;
+	left: 5rem;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.planTextCard {
+	font-size: 1.2rem;
+	color: #757575;
+}
+
+.buttomCard {
+	width: 15rem;
+	height: 4.8rem;
+	padding: 1.2rem 1.6rem;
+	margin: 2rem auto 2.4rem;
+	border: 2px solid var(--bitcoin-orange);
+	border-radius: 4px;
+	background: #faf8f7;
+	font-weight: bold;
+	font-size: 1.4rem;
+	font-family: "DM Sans", sans-serif;
+	line-height: 1.8rem;
+	color: var(--black);
+}
+
+.buttomIconCard {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background-image: url("../../icons/arrowRight.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	vertical-align: text-bottom;
 }
