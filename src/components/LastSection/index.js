@@ -13,7 +13,7 @@ const LastSection = () => {
 					<div className={styles.planInfoCard}>
 						<h3 className={styles.planTitleCard}>Pago Anual</h3>
 						<p className={styles.planCostCard}>
-							<span className={styles.simbolMoneyCard}>$</span> 299
+							<span className={styles.simbolMoneyCard}>$</span> 19
 						</p>
 						<p className={styles.planTextCard}>
 							*Ahorras $129 comparado al plan mensual.
@@ -44,7 +44,7 @@ const LastSection = () => {
 					<div className={styles.planInfoCard}>
 						<h3 className={styles.planTitleCard}>Pago Anual</h3>
 						<p className={styles.planCostCard}>
-							<span className={styles.simbolMoneyCard}>$</span> 199
+							<span className={styles.simbolMoneyCard}>$</span> 59
 						</p>
 						<p className={styles.planTextCard}>
 							*Ahorras $129 comparado al plan mensual.

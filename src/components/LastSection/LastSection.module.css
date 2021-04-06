@@ -75,17 +75,17 @@
 }
 
 .planCostCard {
+	position: relative;
 	padding: 0.5rem 0;
 	font-size: 5.2rem;
 	font-weight: bold;
 	color: var(--black);
-	position: relative;
 }
 
-.simbolMoneyCard {
+.planCostCard .simbolMoneyCard {
 	position: absolute;
-	top: 1rem;
-	left: 3rem;
+	top: 0.5rem;
+	left: calc(50% - 4rem);
 	font-size: 1.2rem;
 	font-weight: 300;
 }
@@ -119,4 +119,10 @@
 	background-size: cover;
 	background-position: center;
 	vertical-align: text-bottom;
+}
+
+@media (min-width: 930px) {
+	.carouselContainer {
+		justify-content: center;
+	}
 }

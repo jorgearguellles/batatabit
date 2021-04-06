@@ -107,3 +107,12 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+@media (min-width: 930px) {
+	.containerCards {
+		display: flex;
+		flex-wrap: wrap;
+		width: 93rem;
+		margin: 0 auto;
+	}
+}
