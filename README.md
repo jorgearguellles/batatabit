@@ -22,7 +22,10 @@ Esta hecha con :green_heart: y:
 
 ## Vista previa
 
-![App Screenshot](https://github.com/jorgearguellles/weatherApp/blob/main/src/img/previewPAge.png)
+![App Screenshot](https://github.com/jorgearguellles/batatabit/blob/master/src/img/1.png)
+![App Screenshot](https://github.com/jorgearguellles/batatabit/blob/master/src/img/2.png)
+![App Screenshot](https://github.com/jorgearguellles/batatabit/blob/master/src/img/3.png)
+![App Screenshot](https://github.com/jorgearguellles/batatabit/blob/master/src/img/4.png)
 
 ## Retroalimentación
 
